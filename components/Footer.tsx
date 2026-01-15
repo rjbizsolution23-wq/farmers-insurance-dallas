@@ -13,8 +13,12 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-12 h-12 bg-gradient-to-br from-primary-600 to-secondary-600 rounded-xl flex items-center justify-center">
-                <span className="text-white font-bold text-xl">CE</span>
+              <div className="w-12 h-12 rounded-xl overflow-hidden border-2 border-primary-400">
+                <img 
+                  src="/christopher-evans-headshot.jpg" 
+                  alt="Christopher Evans" 
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div>
                 <div className="font-bold">Christopher Evans</div>

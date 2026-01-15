@@ -25,8 +25,12 @@ export default function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="w-12 h-12 bg-gradient-to-br from-primary-600 to-secondary-600 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-xl transition-shadow">
-              <span className="text-white font-bold text-xl">CE</span>
+            <div className="w-12 h-12 rounded-xl overflow-hidden shadow-lg group-hover:shadow-xl transition-shadow border-2 border-primary-200">
+              <img 
+                src="/christopher-evans-headshot.jpg" 
+                alt="Christopher Evans" 
+                className="w-full h-full object-cover"
+              />
             </div>
             <div className="hidden sm:block">
               <div className="font-bold text-neutral-900 leading-tight">Christopher Evans</div>

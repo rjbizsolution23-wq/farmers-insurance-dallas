@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import TrustBar from "@/components/TrustBar";
 import QuoteForm from "@/components/QuoteForm";
 import ServicesGrid from "@/components/ServicesGrid";
+import AboutAgent from "@/components/AboutAgent";
 import StatsSection from "@/components/StatsSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import WhyChooseUs from "@/components/WhyChooseUs";
@@ -44,6 +45,9 @@ export default function Home() {
 
       {/* Services Grid */}
       <ServicesGrid />
+
+      {/* About Christopher Evans */}
+      <AboutAgent />
 
       {/* Stats Section */}
       <StatsSection />

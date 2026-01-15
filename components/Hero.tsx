@@ -125,16 +125,24 @@ export default function Hero() {
           >
             <div className="relative">
               <div className="glass p-8 rounded-3xl shadow-2xl">
-                <div className="aspect-[4/3] bg-gradient-to-br from-primary-100 to-secondary-100 rounded-2xl flex items-center justify-center">
+                <div className="aspect-[4/3] bg-gradient-to-br from-primary-100 to-secondary-100 rounded-2xl flex items-center justify-center overflow-hidden">
                   <div className="text-center p-8">
-                    <div className="w-32 h-32 bg-white rounded-full mx-auto mb-6 flex items-center justify-center shadow-xl">
-                      <FaShieldAlt className="text-6xl text-primary-600" />
+                    {/* Christopher Evans Professional Headshot */}
+                    <div className="w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden shadow-2xl border-4 border-white">
+                      <img 
+                        src="/christopher-evans-headshot.jpg" 
+                        alt="Christopher Evans - Farmers Insurance Agent Dallas" 
+                        className="w-full h-full object-cover"
+                      />
                     </div>
                     <h3 className="text-2xl font-bold text-neutral-800 mb-2">
-                      Protected & Trusted
+                      Christopher Evans
                     </h3>
-                    <p className="text-neutral-600">
-                      Comprehensive coverage for your peace of mind
+                    <p className="text-neutral-600 font-medium mb-1">
+                      Licensed Insurance Agent
+                    </p>
+                    <p className="text-neutral-500 text-sm">
+                      5 Years Serving Dallas
                     </p>
                   </div>
                 </div>
